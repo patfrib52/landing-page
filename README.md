@@ -1,2 +1,3 @@
 # landing-page
-create a web page by design
+Create a web page following a design layout
+Added the website structures to the html file
