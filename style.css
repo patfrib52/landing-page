@@ -1,0 +1,82 @@
+/* Colors and font styles, (Dark Hero footer) #1F2937 */
+/* Hero Main text ("This website is awesome), 48px extra-bold #F94AF8." */
+/* Hero secondary text, Header link text 18px #E5E7EB. */
+/* header logo text, 24px 3F9FAF8. */
+/* Button color, cal to action background color, #3882F6 */
+/* information header tex, 36px extra-bold #1F2937 */
+/* quote section background color, #E5E7EB */
+/* quote text, 36px light italic #1F2937 */
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 0 300px 0 300px;
+    margin-bottom: 50px;
+}
+.container-box {
+    display: flex;
+    padding: 0;
+    /* border: 1px solid red; */
+    margin-bottom: 150px;   
+}
+
+ul {
+    gap: 20px;
+}
+
+li.logo { 
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+li {
+    list-style: none;
+    /* border: 1px solid red; */
+    padding-top: 20px;   
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.sign-up {
+    margin-right: auto ;
+}
+
+.image-placeholder {
+    color: #E5E7EB;
+    background-color: rgb(99, 98, 98);
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome p {
+    font-size: 48px; 
+    font-weight: 800; 
+    color: #F9FAF8;
+    margin: 0;
+}
+
+button {
+     background-color: #3882F6;
+     border-radius: 5px;
+     color: #E5E7EB;
+     padding: 5px 20px 5px 20px;
+     margin-top: 10px ;
+     border-color: #3882F6;
+}
+div > .sign-up > p {
+    font-size: 14px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
