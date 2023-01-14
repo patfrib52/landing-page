@@ -3,7 +3,7 @@
 /* Hero secondary text, Header link text 18px #E5E7EB. */
 /* header logo text, 24px 3F9FAF8. */
 /* Button color, cal to action background color, #3882F6 */
-/* information header tex, 36px extra-bold #1F2937 */
+/* information header text, 36px extra-bold #1F2937 */
 /* quote section background color, #E5E7EB */
 /* quote text, 36px light italic #1F2937 */
 
@@ -18,9 +18,10 @@ header {
 }
 .container-box {
     display: flex;
-    padding: 0;
+    justify-content: space-between;
+    padding-bottom: 50px;    
     /* border: 1px solid red; */
-    margin-bottom: 150px;   
+       
 }
 
 ul {
@@ -47,6 +48,11 @@ a {
 
 .sign-up {
     margin-right: auto ;
+}
+
+div.image-placeholder {
+    display: flex;
+
 }
 
 .image-placeholder {
@@ -79,4 +85,48 @@ div > .sign-up > p {
     color: #E5E7EB;
     margin: 0;
 }
+
+.illustrator-box {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+
+h2 {
+    display: flex;     
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+     
+}
+div.container-box > div > p {
+    flex-wrap: wrap;
+    
+}
+
+div.illustration {
+    width: 140px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    
+    
+}
+
+.illustration p {
+    text-align: center;
+}
+
+.container-box.illustrator {
+    justify-content: center;
+    gap: 50px;
+    
+}
+
 
