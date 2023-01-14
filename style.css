@@ -57,7 +57,7 @@ div.image-placeholder {
 
 .image-placeholder {
     color: #E5E7EB;
-    background-color: rgb(99, 98, 98);
+    background-color: rgb(180, 171, 171);
     height: 200px;
     width: 600px;
     display: flex;
@@ -149,5 +149,54 @@ h6 {
     padding-left: 550px;
     margin: 0;
 }
+
+div.container-box.bottom {
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bottom-sign-up {
+
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 5px;
+    padding: 10px 100px;
+    margin: 0 50px;
+    
+}
+
+div.action-button > button {
+    
+    justify-content: flex-end;
+    border-color: lightgray;
+}
+div.container-box.bottom-sign-up > div > p{
+    margin: 0;
+
+}
+.container-box.bottom-sign-up{
+     justify-content: space-between;
+}
+
+
+p.action-time {
+    font-size: 30px;
+    font-weight: 800;
+    
+
+}
+
+footer {
+    font-size:  20px;
+    height: 100px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+
 
 

@@ -6,3 +6,4 @@
 # Add class to element and link to css file.
 # Added style to css files
 # completed the information section
+.. completed quote section
