@@ -8,21 +8,20 @@
 /* quote text, 36px light italic #1F2937 */
 
 body {
+    font-family: roboto;
     margin: 0;
+}
+
+.container-box {
+    display: flex;    
 }
 
 header {
     background-color: #1F2937;
-    padding: 0 300px 0 300px;
-    margin-bottom: 50px;
+    padding: 0 250px 0 250px;
+    
 }
-.container-box {
-    display: flex;
-    /* justify-content: space-between; */
-    /* padding-bottom: 50px;     */
-    /* border: 1px solid red; */
-       
-}
+
 
 ul {
     gap: 20px;
@@ -36,7 +35,6 @@ li.logo {
 
 li {
     list-style: none;
-    /* border: 1px solid red; */
     padding-top: 20px;   
 }
 
@@ -47,22 +45,20 @@ a {
 }
 
 .sign-up {
-    margin-right: auto ;
+    height: 350px;
 }
 
-div.image-placeholder {
-    display: flex;
 
-}
 
 .image-placeholder {
     color: #E5E7EB;
     background-color: rgb(180, 171, 171);
     height: 200px;
-    width: 600px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 40px;
 }
 
 .awesome > p {
@@ -70,6 +66,7 @@ div.image-placeholder {
     font-weight: 800; 
     color: #F9FAF8;
     margin: 0;
+    padding: 0;
 }
 
 button {
@@ -160,6 +157,7 @@ div.container-box.bottom {
 
     color: #F9FAF8;
     background-color: #3882F6;
+    
     width: 800px;
     border-radius: 5px;
     padding: 10px 100px;
@@ -170,7 +168,7 @@ div.container-box.bottom {
 div.action-button > button {
     
     justify-content: flex-end;
-    border-color: lightgray;
+    border-color: whitesmoke;
 }
 div.container-box.bottom-sign-up > div > p{
     margin: 0;
