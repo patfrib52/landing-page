@@ -18,8 +18,8 @@ header {
 }
 .container-box {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;    
+    /* justify-content: space-between; */
+    /* padding-bottom: 50px;     */
     /* border: 1px solid red; */
        
 }
@@ -65,7 +65,7 @@ div.image-placeholder {
     align-items: center;
 }
 
-.awesome p {
+.awesome > p {
     font-size: 48px; 
     font-weight: 800; 
     color: #F9FAF8;
@@ -114,9 +114,7 @@ div.illustration {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;   
-    
-    
+    justify-content: center;     
 }
 
 .illustration p {
@@ -126,7 +124,30 @@ div.illustration {
 .container-box.illustrator {
     justify-content: center;
     gap: 50px;
-    
+}
+
+.container-box.quote-text {
+    background-color: #E5E7EB;
+    justify-content: center;   
+}
+
+
+
+.quote-box {
+    padding: 60px 0;
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+.quote-box > p {
+    margin: 0;
+}
+
+h6 {
+    font-style: normal;
+    padding-left: 550px;
+    margin: 0;
 }
 
 
